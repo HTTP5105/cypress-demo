@@ -1,5 +1,8 @@
 {
   "baseUrl": "http://localhost:8080",
   "projectId": "demo",
-  "video": true
+  "video": true,
+  "screenshotsFolder": "./cypress/snapshots/actual",
+  "trashAssetsBeforeRuns": true,
+  "failSilently": false
 }

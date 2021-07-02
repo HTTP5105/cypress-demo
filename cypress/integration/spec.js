@@ -25,6 +25,7 @@ describe('Navigation', () => {
         clickTheOnlyButton();
         expectToBeOnPage('/404.html')
     })
+    
     it('goes to expected URL when the 404 form is filled', () => {
         submitTheForm('/otherpage.html');
         expectToBeOnPage('/otherpage.html');

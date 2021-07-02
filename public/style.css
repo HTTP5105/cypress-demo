@@ -18,10 +18,16 @@ main>* {
     margin: 0;
 }
 
+/* 
+    Un-comment the rule below to fail
+    the visual regression test
+*/
 
+/*
 body {
     display: block;
 }
+*/
 
 input[type="text"] {
     margin-bottom: 1em;
